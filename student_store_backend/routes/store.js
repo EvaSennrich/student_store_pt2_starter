@@ -1,5 +1,5 @@
 const Store = require("../models/store");
-// const router = require("./auth");
+const express = require("express");
 const router = express.Router();
 
 router.get("/", async (req, res, next) => {
